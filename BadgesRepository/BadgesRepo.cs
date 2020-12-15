@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BadgesRepository
 {
-    public class Class1
+    public class BadgesRepo
     {
     }
 }
