@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace BadgesRepository
 {
-    class Badges
+    public class Badges
     {
+
+        public int BadgeID { get; set; }
+        public List<string> DoorAccess { get; set; } // door access is a list of type string
+
+        public Badges() { }
+
+        public Badges (int badgeID, List<string> doorAccess)
+        {
+            BadgeID = badgeID;
+            DoorAccess = doorAccess;
+        }
     }
 }
