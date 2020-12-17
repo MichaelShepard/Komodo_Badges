@@ -1,0 +1,6 @@
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesRepository\bin\Debug\BadgesRepository.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesRepository\bin\Debug\BadgesRepository.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesRepository\obj\Debug\BadgesRepository.csprojAssemblyReference.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesRepository\obj\Debug\BadgesRepository.csproj.CoreCompileInputs.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesRepository\obj\Debug\BadgesRepository.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesRepository\obj\Debug\BadgesRepository.pdb

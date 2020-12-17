@@ -1,0 +1,12 @@
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\bin\Debug\KomodoBadges.exe.config
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\bin\Debug\KomodoBadges.exe
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\bin\Debug\KomodoBadges.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\bin\Debug\BadgesRepository.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\bin\Debug\BadgesRepository.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\obj\Debug\KomodoProgram.csprojAssemblyReference.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\obj\Debug\KomodoProgram.csproj.CoreCompileInputs.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\obj\Debug\KomodoProgram.csproj.CopyComplete
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\obj\Debug\KomodoBadges.exe
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\obj\Debug\KomodoBadges.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\bin\Debug\ConsoleTables.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\KomodoBadges\bin\Debug\ConsoleTables.pdb

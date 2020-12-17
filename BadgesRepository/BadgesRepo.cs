@@ -17,6 +17,11 @@ namespace BadgesRepository
         }
 
 
+        public Dictionary<int, List<string>> GetBadges()
+        {
+
+            return _badgesDictionary;
+        }
 
 
     } // End of BadgesRepo Class

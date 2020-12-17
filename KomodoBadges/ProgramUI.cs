@@ -1,4 +1,5 @@
 ﻿using BadgesRepository;
+using ConsoleTables;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,10 +29,10 @@ namespace KomodoBadges
 
                 Console.WriteLine("Select an option: \n" +
                     "1. Create a new badge \n" +
-                    "2. Show a list of all badges with door access \n" +
-                    "3. Show a badge with its door access \n" +
-                    "4. Update a badge's door access \n" +
-                    "5. Delete all access from a badge \n" +
+                    "2. Update a badge's door access \n" +
+                    "3. Delete all access from a badge \n" +
+                    "4. Show a badge with its door access \n" +
+                    "5. Show a list of all badges with door access \n" +
                     "6. Exit");
 
                 string input = Console.ReadLine();
@@ -41,18 +42,19 @@ namespace KomodoBadges
 
                     case "1":
                         CreateBadge();
-                        break;
+                        break; 
                     //case "2":
-                    //    ListAllBadges();
-                    //    break;
-                    //case "3":
-                    //    BadgeDoorAccess();
-                    //    break;
-                    //case "4":
                     //    UpdateBadgeAccess();
                     //    break;
-                    //case "5":
+                    //case "3":
                     //    DeleteBadgeAccess();
+                    //case "4":
+                    //    BadgeDoorAccess();
+                    //    break;
+                    case "5":
+                        ListAllBadges();
+                        break;
+
                     case "6":
                         Console.WriteLine("Good Bye!");
                         keepRunning = false;
@@ -74,6 +76,8 @@ namespace KomodoBadges
         {
             
             Badges newBadge = new Badges();
+            List<string> newAccess = new List<string>();
+            
 
             bool inBadgecheckLoop = true;
 
@@ -87,12 +91,14 @@ namespace KomodoBadges
                 if (Int32.TryParse(input, out int number))
                 {
 
-                    number = newBadge.BadgeID;
-                    inBadgecheckLoop = true;
+                    newBadge.BadgeID = number;
+                    inBadgecheckLoop = false;
+
                 } else {
 
-                    Console.WriteLine($"The Badge ID, {input}, is not a number. Please try again");
-                    inBadgecheckLoop = false;
+                    Console.WriteLine($"The Badge ID, {input}, is not a number. Please try again. Press Enter to continue...." );
+                    Console.ReadKey();
+                    inBadgecheckLoop = true;
                 }
 
 
@@ -102,27 +108,54 @@ namespace KomodoBadges
 
             while(doorAccessDone)
             {
-                Console.WriteLine("Which door needs acces?");
-                newBadge.DoorAccess = Console.ReadLine();
+                Console.WriteLine("Which door needs access?");
+                newAccess.Add(Console.ReadLine());
+                newBadge.DoorAccess = newAccess;
+
+               
 
                 Console.WriteLine("Add another door? (y/n)");
                 string inputAddAnotherDoor = Console.ReadLine();
                 bool yesAddAnotherDoor = "y".Equals(inputAddAnotherDoor, StringComparison.OrdinalIgnoreCase);
-                if(yesAddAnotherDoor == true)
+                if (yesAddAnotherDoor == true)
                 {
 
                     doorAccessDone = true;
-                } else {
+                }
+                else
+                {
 
                     doorAccessDone = false;
                 }
-
-
             }
 
-            
+            //var newBadgeToAdd = new Badges()
+            _badgesRepo.AddToAccessList(newBadge);
+
+        } // End of Create New Badge
 
 
+
+        public void ListAllBadges()
+        {
+
+            Console.Clear();
+
+            Dictionary<int, List<string>> _listOfBadges = _badgesRepo.GetBadges(); // creates a new object from the data. 
+
+            var table = new ConsoleTable("Badge #", "Door Access"); // uses ConsoleTable to print out dat table and this is the header
+
+
+
+            foreach (KeyValuePair<int, List<string>> pair in _listOfBadges)
+            {
+                string combinedAccessList = string.Join(", ", pair.Value); // takes the values from the list and converts them to a string
+                table.AddRow(pair.Key, combinedAccessList);
+            }
+
+
+            table.Write();  // prints table
+            Console.WriteLine();
         }
 
 
@@ -137,8 +170,8 @@ namespace KomodoBadges
             _badgesRepo.AddToAccessList(badge1);
 
             List<string> list2 = new List<string>();
-            list1.Add("Room 3");
-            list1.Add("Room 4");
+            list2.Add("Room 3");
+            list2.Add("Room 4");
 
             var badge2 = new Badges(2, list2);
             _badgesRepo.AddToAccessList(badge2);
