@@ -1,0 +1,16 @@
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\bin\Debug\BadgesTest.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\bin\Debug\BadgesTest.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\bin\Debug\BadgesRepository.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\bin\Debug\BadgesRepository.pdb
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\obj\Debug\BadgesTest.csprojAssemblyReference.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\obj\Debug\BadgesTest.csproj.CoreCompileInputs.cache
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\obj\Debug\BadgesTest.csproj.CopyComplete
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\obj\Debug\BadgesTest.dll
+X:\Google Drive\What is this\Desktop\1150\1150 Proj\Challenge\Komodo_Badges\BadgesTest\obj\Debug\BadgesTest.pdb
